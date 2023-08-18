@@ -11,7 +11,7 @@ import UIKit
 public class TextToastView : UIStackView {
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.numberOfLines = 1
+        label.numberOfLines = 2
         return label
     }()
     
